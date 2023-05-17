@@ -1,0 +1,44 @@
+/*Cambiar el estilo del encabezado (color, tipo de letra, alineamiento, etc).*/
+header {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: orange;
+}
+/*Usar el selector de clase para darle a la sección un margen izquierdo del 8%, un margen derecho del 5% y un margen top 
+de 30 puntos*/
+.seccion {
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 30pt;
+}
+/*Usar los selectores de ID para dar estilo a cada artículo por separado. Uno tendrá la letra del tamaño 16 y otro de tamaño 
+12. Uno tendrá el texto justificado y el otro estará en negrita y cursiva. Los dos artículos tendrán el texto de distinto color.*/
+#articulo1 {
+    font-size: 16px;
+    text-align: justify;
+    color: blue;
+}
+
+#articulo2 {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+}
+/*Poner el menú centrado con la lista en línea.*/
+footer {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: black;
+    text-align: center;
+}
+/*Usar el selector de pseudoclase sobre los enlaces para que el texto se vuelva naranja al poner el cursor encima.*/
+nav a:hover {
+    color: orange;
+}
